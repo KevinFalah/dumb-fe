@@ -1,0 +1,237 @@
+.btn-regis {
+  color: rgb(199, 0, 0) !important;
+}
+
+.btn-login {
+  background-color: #E50914;
+}
+
+.hero {
+  width: 45%;
+  padding-left: 100px;
+  height: 100%;
+  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.377);
+}
+
+.navbarshad {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.479);;
+}
+
+.navbarUl {
+  flex: 1.2;
+}
+
+.background-hero-home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Images/bg6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.background-hero-tv {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Images/bg4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.background-hero-movie {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./Images/bg7.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.hero .text-size {
+  font-size: 5em;
+}
+
+.btn-watch {
+  background-color: #E50914 !important;
+}
+
+.tv-s {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.114);
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+.sectionSeries {
+  box-shadow: -20px -20px 10px rgba(0, 0, 0, 0.765);
+}
+
+.formModal::-webkit-input-placeholder {
+  color: white !important;
+}
+
+.formPayment {
+  background-color: #343434 !important;
+}
+
+.formPayment::-webkit-input-placeholder {
+  color: #a9a9a9 !important;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.mod-fot {
+  flex-direction: column !important;
+}
+
+.here {
+  color:  rgb(255, 58, 94);
+  cursor: pointer;
+}
+
+.dropDivid {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.sectionMain {
+  width: 65%;
+  margin: auto;
+}
+
+.cardEpisode {
+  width: 100%;
+}
+
+.pDetailMain {
+  font-size: 12px;
+}
+
+.imgDummyDetail {
+  height: 250px !important;
+  width: 800px !important;
+  object-fit: cover;
+}
+
+.imgEpisode {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  position: relative;
+}
+
+.cardEpisode {
+  position: relative;
+}
+
+.cardEpisode::after {
+  content: 'In Play Now';
+  position: absolute;
+  font-weight: bold;
+  top: 35%;
+  left: 40%;
+  display: block;
+  color: white;
+}
+
+.changePhotoBtn {
+  width: 100%;
+}
+
+.sectionPayment {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pPayment {
+  font-size: 17px;
+}
+
+.cardFilm {
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardFilm:hover {
+  box-shadow: 0px 0px 20px rgba(249, 9, 9, 0.813);
+}
+
+.btnSubmitPayment {
+  width: 100%;
+  background-color: #CF202C !important;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.labelInputFile {
+  background-color: white !important;
+  color: #CF202C !important;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  padding: 0 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.labelThumbnail {
+  background-color: white !important;
+  color: black !important;
+  height: 50px;
+  gap: 10px;
+  width: 100%;
+  line-height: 50px;
+  text-align: left;
+  padding: 0 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.notadmin {
+    animation: animatedAdmin 0.7s infinite alternate;
+    font-size: 3em;
+}
+
+@keyframes animatedAdmin {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 1.3s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(102, 0, 0); }
+}

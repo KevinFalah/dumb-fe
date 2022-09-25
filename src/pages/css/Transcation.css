@@ -1,0 +1,73 @@
+.transcation-container {
+  display: flex;
+  position: relative;
+  margin: auto;
+  color: white;
+  flex-direction: column;
+  padding: 30px 150px;
+  font-size: 13px;
+}
+
+@media (max-width: 758px) {
+  .transcation-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.transcation-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.transcation-table tr:nth-child(even) {
+  background-color: #2b2b2b;
+}
+
+.transcation-table tr:nth-child(odd) {
+  background-color: #1f1f1f;
+}
+
+.transcation-table th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  height: 73.14px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.transcation-table th {
+  color: #e50914;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1f1f1f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 0 0;
+  margin: 0 0;
+  z-index: 1;
+  color: white;
+}
+
+.dropdown-content ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.dropdown-content ul li:hover {
+  opacity: 0.8;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
