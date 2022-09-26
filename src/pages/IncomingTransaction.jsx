@@ -71,7 +71,7 @@ const IncomingTransaction = () => {
                     <th>Name</th>
                     <th>Email</th>
                     <th>Subscription Period</th>
-                    <th>Status User</th>
+                    <th>Status Payment</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -83,7 +83,7 @@ const IncomingTransaction = () => {
                           <td>{data.user.fullname}</td>
                           <td>{data.user.email}</td>
                           <td>{Duration(data.dueDate, data.startDate)}</td>
-                          <td className="text-success">Active</td>
+                          <td className={data.status === "success" ? "text-success" : data.status === "pending" ? "text-warning" : "text-danger"}>{data.status === "success" ? "Success" : data.status === "pending" ? "pending" : "Failed"}</td>
                         </tr>
                       </>
                     );
