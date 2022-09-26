@@ -76,7 +76,7 @@ const IncomingTransaction = () => {
                 </thead>
                 <tbody>
                   {transaction?.map((data, index) => {
-                    console.log(data.status)
+                    console.log("ini testing : ", data.status)
                     return (
                       <>
                         <tr style={{ height: "60px" }} className="text-center">
