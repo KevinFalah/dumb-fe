@@ -31,6 +31,7 @@ function Profile() {
   const [isLoading, setIsLoading] = useState(false)
   
   const [state] = useContext(UserContext);
+  console.log(state.user)
   
   useEffect(() => {
     setIsLoading(true)
