@@ -24,7 +24,6 @@ function Home() {
         <div className="background-hero-home container-fluid mx-auto">
           <div className="hero ms-5 text-light d-flex flex-column align-content-center justify-content-center">
             <h1 className="text-size text-start">PEAKY BLINDERS</h1>
-            <img className="object-fit" src={bgHero}/>
             <p className="">
             Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.
             </p>
