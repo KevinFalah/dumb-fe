@@ -23,10 +23,10 @@ function Home() {
       <div>
         <div className="background-hero-home container-fluid mx-auto">
           <div className="hero ms-5 text-light d-flex flex-column align-content-center justify-content-center">
-            {/* <h1 className="text-size text-start">PEAKY BLINDERS</h1> */}
+            <h1 className="text-size text-start">PEAKY BLINDERS</h1>
             <img className="object-fit" src={bgHero}/>
             <p className="">
-            This original Netflix series, originally titled La Casa de Papel, follows the Professor (Álvaro Morte), a criminal mastermind who brings eight thieves together to take hostages.
+            Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.
             </p>
             <div className="mb-4">
               <span>2013</span>
